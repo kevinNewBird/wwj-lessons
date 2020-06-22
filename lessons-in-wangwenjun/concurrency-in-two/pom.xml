@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>lessons-in-wangwenjun</artifactId>
+        <groupId>com.concurrency</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>com.concurrency</groupId>
-        <artifactId>lessons-in-wangwenjun</artifactId>
-        <version>1.0-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
-    </parent>
-    <packaging>pom</packaging>
-    <groupId>com.concurreny</groupId>
-    <artifactId>concurreny-in-one</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>concurreny-in-one</name>
-    <description>Demo project for Spring Boot</description>
-
+    <artifactId>concurrency-in-two</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -45,14 +39,6 @@
             <artifactId>lombok</artifactId>
             <version>1.16.22</version>
         </dependency>
-
-        <!--fastjson重大安全性问题,建议用net.json,父pom已引入依赖-->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.56</version>
-        </dependency>
-
     </dependencies>
 
 </project>
