@@ -1,74 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbfd39ba-4a59-4456-80f9-d507bcbb1dd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10_booleanlock/BooleanLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10_booleanlock/BooleanLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10_booleanlock/Lock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10_booleanlock/SynchronizedProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c11_hook/SimpleApplicationHook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c11_hook/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c11_hook/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c11_hook/TestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c11_hook/ThreadException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c12_threadgroup/ThreadGroupApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c12_threadgroup/ThreadGroupCreate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c13_threadpool/SimpleThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c1_templatemethod/TemplateMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c5_join/ThreadJoinCaseOfGatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c9_communication/CaptureService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c9_communication/DifferenceOfSleepAndWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c9_communication/ProducerConsumerV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/demo/SimpleThreadPoolV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/demo/TryFunctionProgramDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/tree/UmsPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/tree/UmsPermissionNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/tree/UmsPermissionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/version/version.readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/ConcurrenyInOneApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/ConcurrenyInOneApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c1/TryConcurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c1_templatemethod/TryConcurrency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c2/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c2_strategy/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c2/CalculatorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c2_strategy/CalculatorStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c2/TaxCalaculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c2_strategy/TaxCalaculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c2/TaxCalaculatorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c2_strategy/TaxCalaculatorMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c2/TicketWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c2_strategy/TicketWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c3/CreateThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c3_api/CreateThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c3/CreateThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c3_api/CreateThread2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c3/CreateThread3.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c3_api/CreateThread3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c3/CreateThread4.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c3_api/CreateThread4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c3/CreateThread5.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c3_api/CreateThread5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c4/DaemonThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c4_daemon/DaemonThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c4/DaemonThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c4_daemon/DaemonThread2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c4/DaemonThread3.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c4_daemon/DaemonThread3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c4/DaemonThread4.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c4_daemon/DaemonThread4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c4/ThreadSimpleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c3_api/ThreadSimpleAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c5/ThreadCommonAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c5_join/ThreadCommonAPITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c5/ThreadJoinUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c5_join/ThreadJoinUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c5/ThreadJoinUsage2.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c5_join/ThreadJoinUsage2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6/ThreadCloseForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadCloseForce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6/ThreadCloseGraceful1.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadCloseGraceful1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6/ThreadCloseGraceful2.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadCloseGraceful2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6/ThreadInterrupt.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadInterrupt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6/ThreadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7/BankVersion2.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7_synchronized/BankVersion2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7/BankVersion3.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7_synchronized/BankVersion3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7/SynchronizedRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7_synchronized/SynchronizedRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7/SynchronizedStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7_synchronized/SynchronizedStatic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7/SynchronizedStaticTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7_synchronized/SynchronizedStaticTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7/SynchronizedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7_synchronized/SynchronizedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7/SynchronizedThis.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7_synchronized/SynchronizedThis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7/TicketWindowVersion2.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7_synchronized/TicketWindowVersion2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c8/DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c8_deadlock/DeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c8/DeadLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c8_deadlock/DeadLockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c8/OtherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c8_deadlock/OtherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c9/ProducerConsumerV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c9_communication/ProducerConsumerV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c9/ProducerConsumerV2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="dbfd39ba-4a59-4456-80f9-d507bcbb1dd1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/concurreny-in-one/target/" />
@@ -182,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10_booleanlock/BooleanLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="111" column="29" lean-forward="true" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
+            <state relative-caret-position="257">
+              <caret line="102" column="39" lean-forward="true" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -646,7 +579,7 @@
       <workItem from="1592483092086" duration="2270000" />
       <workItem from="1592531300304" duration="10123000" />
       <workItem from="1592743068493" duration="7910000" />
-      <workItem from="1592790253944" duration="647000" />
+      <workItem from="1592790253944" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 本地仓库工程添加到git">
       <created>1587540815751</created>
@@ -659,13 +592,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113415000" />
+    <option name="totallyTimeSpent" value="113685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="2448" height="1344" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24706867" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24706867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -681,7 +614,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.328654" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32782823" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5020938" side_tool="true" weight="0.3996697" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49916247" weight="0.3261767" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -1110,8 +1043,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10_booleanlock/BooleanLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="111" column="29" lean-forward="true" selection-start-line="111" selection-start-column="29" selection-end-line="111" selection-end-column="29" />
+        <state relative-caret-position="257">
+          <caret line="102" column="39" lean-forward="true" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
         </state>
       </provider>
     </entry>
