@@ -16,9 +16,10 @@ public class SynchronizedProblem {
      */
 
     public static void main(String[] args) throws InterruptedException {
-        new Thread(() -> {
+        Thread t1 = new Thread(() -> {
             SynchronizedProblem.run();
-        }, "t1").start();
+        }, "t1");
+        t1.start();
 
         Thread.sleep(10_000);
 
@@ -31,8 +32,8 @@ public class SynchronizedProblem {
 
         //尝试去中断等待执行的线程
         Thread.sleep(2000);
-        t2.interrupt();
-        System.out.println(t2.isInterrupted());
+        t1.interrupt();
+        System.out.println(t1.isInterrupted());
 
 
     }

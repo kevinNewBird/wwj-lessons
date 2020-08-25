@@ -18,4 +18,19 @@ public class DemoController {
     public String testDemo() {
         return "hello";
     }
+
+
+    @RequestMapping("/testPoolWithoutDaemon")
+    public String testPoolWithoutDaemon() {
+        ThreadDemoTest.testThreadPoolV1();
+        return "create default thread without daemon!";
+    }
+
+    @RequestMapping("/testPoolWithDaemon")
+    public String testPoolWithDaemon() {
+        ThreadDemoTest.testThreadPoolV2();
+        return "create default thread with daemon!";
+    }
+
+
 }
