@@ -23,96 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbfd39ba-4a59-4456-80f9-d507bcbb1dd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter1/ClassActiveUse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter2/BootClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter2/SimpleObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/CustomClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/CustomClassLoaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10_threadlocal/ThreadLocalComplexTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10_threadlocal/ThreadLocalSimpleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10_threadlocal/ThreadLocalSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10_threadlocal/ThreadLocalSimulatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/ActionContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/ExecutionTask2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/ExecutionTaskClient2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/QueryFromDBAction2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/QueryFromHttpAction2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/simple/ExecutionTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/simple/ExecutionTaskClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/simple/QueryFromDBAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/simple/QueryFromHttpAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter12_balking/BalkingData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter12_balking/BalkingDataTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/hungry/SingletonOfHungryType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfDoubleCheckLazyLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfDoubleCheckLazyLoad2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfErrorLazyLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfMethodSyncronizedLazyLoad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfOptimum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfUseEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter2_waitset/WaitSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter2_waitset/WaitSet2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter3_volatile/VolatileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter3_volatile/VolatileTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/demo/BinaryMineObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/demo/MineObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/demo/ObserverClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/demo/OctalMineObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/demo/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread/LifeCycleListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread/ObservableRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread/ThreadLifeCycleCilent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread/ThreadLifeCycleObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread2/MineLifeCycleListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread2/MineObservableRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread2/MineThreadLifeCycleClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread2/MineThreadLifeCycleObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter5/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter5/Gate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter5/UserThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/ReadWriteLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/ReadWriteLockClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/ReaderWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/SharedData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/WriterWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter7_immutableobj/ImmutableClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter7_immutableobj/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter7_immutableobj/UsePersonThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/AsynFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/Future.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/FutureService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/FutureTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/SyncInvoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/ClientThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/RequestQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/ServerThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/SuspensionClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/ThreadDemoTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/ThreadPoolDemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/entity/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/future/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/future/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/future/FutureData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/future/FutureTaskDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/future/RealData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/manager/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/util/ExecutorServiceHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/util/ThreadPoolExecutorServiceUtil2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/exceptions/ConvertException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/BeanPropertyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/ConcurrentHashMapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/OtherSizeToByteConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/RegixPatternUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/UserBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/UserDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency-in-two/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-in-two/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurrency-in-two/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/CustomClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/CustomClassLoader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +70,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="zhao.song" />
+        <entry key="$PROJECT_DIR$/.." value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -445,64 +357,91 @@
     <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;feat: idea版本升级备份&quot;&#10;&#10;This reverts commit 869ca16e" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2894" y="270" key="#com.intellij.ide.util.MemberChooser" timestamp="1598432626394">
+      <screen x="1920" y="0" width="2433" height="1329" />
+    </state>
+    <state x="2894" y="270" key="#com.intellij.ide.util.MemberChooser/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598432626394" />
     <state x="2609" y="574" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598432174695">
       <screen x="1920" y="0" width="2433" height="1329" />
     </state>
     <state x="2609" y="574" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598432174695" />
+    <state x="2800" y="350" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598433835275">
+      <screen x="1920" y="0" width="2433" height="1329" />
+    </state>
+    <state x="2800" y="350" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598433835275" />
+    <state x="3157" y="468" key="#xdebugger.evaluate" timestamp="1598434411867">
+      <screen x="1920" y="0" width="2433" height="1329" />
+    </state>
+    <state x="3157" y="468" key="#xdebugger.evaluate/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598434411867" />
     <state x="2516" y="126" key="CommitChangelistDialog2" timestamp="1598430997435">
       <screen x="1920" y="0" width="2433" height="1329" />
     </state>
     <state x="2516" y="126" key="CommitChangelistDialog2/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598430997435" />
-    <state width="2379" height="346" key="GridCell.Tab.0.bottom" timestamp="1598432560874">
+    <state width="2379" height="498" key="GridCell.Tab.0.bottom" timestamp="1598434429008">
       <screen x="1920" y="0" width="2433" height="1329" />
     </state>
-    <state width="2379" height="346" key="GridCell.Tab.0.bottom/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598432560874" />
-    <state width="2379" height="346" key="GridCell.Tab.0.center" timestamp="1598432560874">
+    <state width="2379" height="498" key="GridCell.Tab.0.bottom/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598434429008" />
+    <state width="2379" height="498" key="GridCell.Tab.0.center" timestamp="1598434429008">
       <screen x="1920" y="0" width="2433" height="1329" />
     </state>
-    <state width="2379" height="346" key="GridCell.Tab.0.center/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598432560874" />
-    <state width="2379" height="346" key="GridCell.Tab.0.left" timestamp="1598432560874">
+    <state width="2379" height="498" key="GridCell.Tab.0.center/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598434429008" />
+    <state width="2379" height="498" key="GridCell.Tab.0.left" timestamp="1598434429008">
       <screen x="1920" y="0" width="2433" height="1329" />
     </state>
-    <state width="2379" height="346" key="GridCell.Tab.0.left/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598432560874" />
-    <state width="2379" height="346" key="GridCell.Tab.0.right" timestamp="1598432560874">
+    <state width="2379" height="498" key="GridCell.Tab.0.left/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598434429008" />
+    <state width="2379" height="498" key="GridCell.Tab.0.right" timestamp="1598434429008">
       <screen x="1920" y="0" width="2433" height="1329" />
     </state>
-    <state width="2379" height="346" key="GridCell.Tab.0.right/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598432560874" />
+    <state width="2379" height="498" key="GridCell.Tab.0.right/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598434429008" />
+    <state width="2379" height="498" key="GridCell.Tab.1.bottom" timestamp="1598434429009">
+      <screen x="1920" y="0" width="2433" height="1329" />
+    </state>
+    <state width="2379" height="498" key="GridCell.Tab.1.bottom/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598434429009" />
+    <state width="2379" height="498" key="GridCell.Tab.1.center" timestamp="1598434429008">
+      <screen x="1920" y="0" width="2433" height="1329" />
+    </state>
+    <state width="2379" height="498" key="GridCell.Tab.1.center/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598434429008" />
+    <state width="2379" height="498" key="GridCell.Tab.1.left" timestamp="1598434429008">
+      <screen x="1920" y="0" width="2433" height="1329" />
+    </state>
+    <state width="2379" height="498" key="GridCell.Tab.1.left/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598434429008" />
+    <state width="2379" height="498" key="GridCell.Tab.1.right" timestamp="1598434429009">
+      <screen x="1920" y="0" width="2433" height="1329" />
+    </state>
+    <state width="2379" height="498" key="GridCell.Tab.1.right/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598434429009" />
+    <state x="2561" y="337" width="1150" height="759" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598434013933">
+      <screen x="1920" y="0" width="2433" height="1329" />
+    </state>
+    <state x="2561" y="337" width="1150" height="759" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598434013933" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadInterrupt.java</url>
           <line>29</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadInterrupt.java</url>
           <line>51</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadInterrupt.java</url>
           <line>48</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/CustomClassLoader.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="33" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>ex.get()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Thread.currentThread()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>

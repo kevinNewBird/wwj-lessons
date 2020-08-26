@@ -43,7 +43,8 @@ public class CustomClassLoader extends ClassLoader {
      */
     @Override
     public Class<?> findClass(String name) throws ClassNotFoundException {
-        String classPath = name.replace("\\.", "/");
+        String classPath = name.replace(".", "\\");
+//        String classPath = name.replaceAll("\\.", "\\\\");
         File classFile = new File(dir, classPath + ".class");
         if (!classFile.exists()) {
             throw new ClassNotFoundException("The class " + name + " not found under "

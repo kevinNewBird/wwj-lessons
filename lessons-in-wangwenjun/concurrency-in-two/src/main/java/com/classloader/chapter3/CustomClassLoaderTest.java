@@ -9,6 +9,7 @@ package com.classloader.chapter3;
 public class CustomClassLoaderTest {
 
     public static void main(String[] args) throws ClassNotFoundException {
+
         CustomClassLoader myClassLoader = new CustomClassLoader("MyClassLoader");
         Class<?> aClass = myClassLoader.loadClass("com.classloader.chapter3.MyObject");
         System.out.println(aClass);
