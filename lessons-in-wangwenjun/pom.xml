@@ -13,32 +13,33 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.6.RELEASE</version><!-- lookup parent from repository -->
+        <version>2.0.3.RELEASE</version><!-- lookup parent from repository -->
     </parent>
 
     <modules>
         <module>concurreny-in-one</module>
+        <module>concurrency-in-two</module>
     </modules>
 
     <properties>
         <java.version>1.8</java.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <spring.version>5.2.2.RELEASE</spring.version>
+        <!--<spring.version>5.2.2.RELEASE</spring.version>-->
         <alibaba.fastjson>1.2.47</alibaba.fastjson>
         <lombok.version>1.16.22</lombok.version>
-        <!--<vavr.version>0.9.3</vavr.version>-->
+        <vavr.version>0.9.3</vavr.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
-            <!--<dependency>-->
-            <!--<groupId>io.vavr</groupId>-->
-            <!--<artifactId>vavr</artifactId>-->
-            <!--<version>${vavr.version}</version>-->
-            <!--</dependency>-->
+            <dependency>
+            <groupId>io.vavr</groupId>
+            <artifactId>vavr</artifactId>
+            <version>${vavr.version}</version>
+            </dependency>
 
-            <!--BeanUtils 依赖jar包引入-->
+            <!--utils 依赖jar包引入-->
             <dependency>
                 <groupId>commons-beanutils</groupId>
                 <artifactId>commons-beanutils</artifactId>
@@ -55,22 +56,55 @@
                 <version>1.1.1</version>
             </dependency>
             <!--end-->
+
+           <!-- <dependency>
+                <groupId>com.sun.xml.bind</groupId>
+                <artifactId>jaxb-impl</artifactId>
+                <version>2.3.2</version>
+            </dependency>-->
         </dependencies>
     </dependencyManagement>
 
     <dependencies>
         <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+        </dependency>
+
+        <!--Start     net.sf.json 需要引入的依赖-->
+        <!--<dependency>
+            <groupId>net.sf.json-lib</groupId>
+            <artifactId>json-lib-2.4-jdk13</artifactId>
+            <version>2.4</version>
+            <classifier>jdk13</classifier>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.5</version>
+        </dependency>
+        <dependency>
             <groupId>commons-beanutils</groupId>
             <artifactId>commons-beanutils</artifactId>
+            <version>1.8.3</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging-api</artifactId>
+            <version>1.0.4</version>
         </dependency>
         <dependency>
             <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>
+            <version>3.2.1</version>
         </dependency>
         <dependency>
-            <groupId>commons-logging</groupId>
-            <artifactId>commons-logging</artifactId>
-        </dependency>
+            <groupId>net.sf.ezmorph</groupId>
+            <artifactId>ezmorph</artifactId>
+            <version>1.0.6</version>
+        </dependency>-->
+
+        <!--End     net.sf.json 需要引入的依赖-->
     </dependencies>
 
     <build>

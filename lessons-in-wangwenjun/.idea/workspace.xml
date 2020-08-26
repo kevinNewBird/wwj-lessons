@@ -2,24 +2,134 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbfd39ba-4a59-4456-80f9-d507bcbb1dd1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/concurrency-in-two/concurrency-in-two.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter1/ClassActiveUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter2/BootClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter2/SimpleObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/CustomClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/CustomClassLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10_threadlocal/ThreadLocalComplexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10_threadlocal/ThreadLocalSimpleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10_threadlocal/ThreadLocalSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10_threadlocal/ThreadLocalSimulatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/ActionContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/ExecutionTask2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/ExecutionTaskClient2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/QueryFromDBAction2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/QueryFromHttpAction2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/simple/ExecutionTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/simple/ExecutionTaskClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/simple/QueryFromDBAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/simple/QueryFromHttpAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter12_balking/BalkingData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter12_balking/BalkingDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/hungry/SingletonOfHungryType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfDoubleCheckLazyLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfDoubleCheckLazyLoad2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfErrorLazyLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfMethodSyncronizedLazyLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfOptimum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfUseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter2_waitset/WaitSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter2_waitset/WaitSet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter3_volatile/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter3_volatile/VolatileTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/demo/BinaryMineObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/demo/MineObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/demo/ObserverClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/demo/OctalMineObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/demo/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread/LifeCycleListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread/ObservableRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread/ThreadLifeCycleCilent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread/ThreadLifeCycleObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread2/MineLifeCycleListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread2/MineObservableRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread2/MineThreadLifeCycleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread2/MineThreadLifeCycleObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter5/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter5/Gate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter5/UserThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/ReadWriteLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/ReadWriteLockClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/ReaderWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/SharedData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/WriterWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter7_immutableobj/ImmutableClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter7_immutableobj/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter7_immutableobj/UsePersonThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/AsynFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/Future.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/FutureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/FutureTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/SyncInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/RequestQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/ServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/SuspensionClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/ThreadDemoTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/ThreadPoolDemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/entity/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/future/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/future/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/future/FutureData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/future/FutureTaskDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/future/RealData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/manager/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/util/ExecutorServiceHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/util/ThreadPoolExecutorServiceUtil2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/exceptions/ConvertException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/BeanPropertyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/ConcurrentHashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/OtherSizeToByteConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/RegixPatternUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/UserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/UserDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/java/lang/String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/test/java/com/controller/manager/UserManangerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/controller/ThreadDemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/controller/util/ThreadPoolExecutorServiceUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-in-two/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-in-two/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/Con2SpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/Con2SpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-in-two/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-in-two/src/version/con2.ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/version/con2.ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurreny-in-one/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurreny-in-one/mvnw.cmd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/concurreny-in-one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/ConcurrenyInOneApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/ConcurrenyInOneApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10_booleanlock/BooleanLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10_booleanlock/BooleanLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10_booleanlock/SynchronizedProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10_booleanlock/SynchronizedProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/demo/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/demo/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurreny-in-one/src/test/java/com/concurreny/ConcurrenyInOneApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/src/test/java/com/concurreny/ConcurrenyInOneApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/concurreny-in-one/target/" />
     <ignored path="$PROJECT_DIR$/concurreny-in-one/concurrency-in-two/target/" />
+    <ignored path="$PROJECT_DIR$/concurrency-in-two/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/lessons_in_wangwenjun$BooleanLockTest.ic" NAME="BooleanLockTest Coverage Results" MODIFIED="1597162976495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.concurreny.base.c10_booleanlock.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="283" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -39,70 +149,82 @@
     <session id="-472772877">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.0" value="6" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="4" />
+          <entry key="project.closed" value="30" />
+          <entry key="project.open.time.0" value="12" />
+          <entry key="project.open.time.1" value="7" />
+          <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.11" value="6" />
-          <entry key="project.open.time.12" value="4" />
-          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.12" value="5" />
+          <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.2" value="6" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.3" value="4" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="40" />
+          <entry key="project.open.time.3" value="7" />
+          <entry key="project.open.time.4" value="8" />
+          <entry key="project.open.time.5" value="6" />
+          <entry key="project.open.time.6" value="7" />
+          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="28" />
-          <entry key="java" value="17037" />
-          <entry key="md" value="27" />
+          <entry key="dummy" value="107" />
+          <entry key="ft" value="23" />
+          <entry key="java" value="39944" />
+          <entry key="md" value="42" />
+          <entry key="properties" value="472" />
           <entry key="txt" value="23" />
-          <entry key="xml" value="334" />
+          <entry key="xml" value="610" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="17037" />
-          <entry key="Markdown" value="27" />
-          <entry key="PLAIN_TEXT" value="51" />
-          <entry key="XML" value="334" />
+          <entry key="JAVA" value="39944" />
+          <entry key="Markdown" value="42" />
+          <entry key="PLAIN_TEXT" value="130" />
+          <entry key="Properties" value="472" />
+          <entry key="VTL" value="23" />
+          <entry key="XML" value="610" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="gitignore" value="1" />
+          <entry key="aj" value="1" />
+          <entry key="class" value="19" />
+          <entry key="cmd" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="195" />
-          <entry key="md" value="1" />
+          <entry key="java" value="441" />
+          <entry key="md" value="2" />
           <entry key="png" value="1" />
-          <entry key="pom" value="1" />
-          <entry key="xml" value="8" />
+          <entry key="pom" value="2" />
+          <entry key="properties" value="6" />
+          <entry key="txt" value="1" />
+          <entry key="xml" value="26" />
+          <entry key="xsd" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
+          <entry key="AspectJ" value="1" />
+          <entry key="CLASS" value="19" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="195" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="9" />
+          <entry key="JAVA" value="441" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Properties" value="6" />
+          <entry key="XML" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="3" />
+          <entry key="git.branch.checkout.local" value="4" />
           <entry key="git.branch.create.new" value="1" />
           <entry key="git.branch.delete.local" value="1" />
-          <entry key="git.branch.merge" value="1" />
+          <entry key="git.branch.merge" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -110,53 +232,99 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c13_threadpool/SimpleThreadPool.java">
+        <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/CustomClassLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4268">
-              <caret line="196" column="28" selection-start-line="196" selection-start-column="28" selection-end-line="196" selection-end-column="28" />
+            <state relative-caret-position="286">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6147#6148#0" expanded="true" />
-                <element signature="e#6182#6183#0" expanded="true" />
-                <element signature="e#6209#6210#0" expanded="true" />
-                <element signature="e#6235#6236#0" expanded="true" />
+                <element signature="e#0#2414#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10_booleanlock/BooleanLock.java">
+        <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/CustomClassLoaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="125" column="74" selection-start-line="125" selection-start-column="74" selection-end-line="125" selection-end-column="74" />
+            <state relative-caret-position="264">
+              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/concurreny-in-one/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concurrency-in-two/concurrency-in-two.iml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/WriterWorker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="770">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/Con2SpringApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="410">
+              <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/concurreny-in-one/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1276">
+              <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concurrency-in-two/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1144">
+              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/controller/util/ThreadPoolExecutorServiceUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1210">
+              <caret line="61" column="69" selection-start-line="61" selection-start-column="69" selection-end-line="61" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/controller/ThreadDemoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/controller/DemoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -177,6 +345,14 @@
       <find>true</find>
       <find>false</find>
       <find>corePoolSize</find>
+      <find>out</find>
+      <find>applicationTaskExecutor</find>
+      <find>Rejected bean name</find>
+      <find>Collections</find>
+      <find>ClassLoader</find>
+      <find>URLClassLoader</find>
+      <find>commons</find>
+      <find>Nu</find>
     </findStrings>
     <replaceStrings>
       <replace>conconrreny.base</replace>
@@ -201,62 +377,68 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c1_demo/TemplateMethod.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c1_demo/TryConcurrency.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c2/TaxCalaculator.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c2_decorator/TaxCalaculator.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c2_strategy/CalculatorStrategy.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c2_strategy/TaxCalaculator.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c3/CreateThread.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c3/CreateThread4.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c3_api/CreateThread4.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c4_daemon/DaemonThread.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c4_daemon/DaemonThread2.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c3_api/ThreadSimpleAPI.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c5_join/ThreadJoinUsage.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c5_join/ThreadJoinCaseOfGatherData.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadCloseGraceful1.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadCloseGraceful2.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/demo/TryFunctionProgramDemo.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadCloseForce.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadService.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c7_synchronized/SynchronizedTest.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadInterrupt.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c9/ProducerConsumerV2.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c9/DiffferenceOfSleepAndWait.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c9/DifferenceOfSleepAndWait.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/tree/UserPermission.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/tree/UserPermissionNode.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/tree/UmsPermissionNode.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/tree/UmsPermission.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/tree/UmsPermissionTest.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c5_join/ThreadCommonAPITest.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c9_communication/BigDataGatherCase.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c9_communication/CaptureService.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/version/version.readme.md" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10/Lock.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10/SynchronizedProblem.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10/BooleanLock.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c1_templatemethod/TemplateMethod.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/controller/DemoController.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c11_hook/SimpleApplicationHook.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c11_hook/Test1.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c11_hook/TestTest.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c11_hook/Test2.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c11_hook/ThreadException.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c12_threadgroup/ThreadGroupCreate.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c12_threadgroup/ThreadGroupApi.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10/BooleanLockTest.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/demo/SimpleThreadPoolV1.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c13_threadpool/SimpleThreadPool.java" />
-        <option value="$PROJECT_DIR$/concurreny-in-one/concurrency-in-two/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/Future.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/FutureTask.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/AsynFuture.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/SyncInvoker.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/FutureService.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/ClientThread.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/Request.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/ServerThread.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/SuspensionClientTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/RequestQueue.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10/ThreadLocalSimpleTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10/ThreadLocalComplexTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10/ThreadLocalSimulator.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10/ThreadLocalSimulatorTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10_threadlocal/ThreadLocalSimulatorTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11/QueryAction.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11/QueryFromHttpAction.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11/ExecutionTask.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11/QueryFromDBAction.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11/Context.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11/ExecutionTaskClient.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/ExecutionTaskClient.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/simple/ExecutionTaskClient.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/ActionContext.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/ExecutionTask.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/QueryFromHttpAction2.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/ActionContext.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/QueryFromDBAction2.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/ExecutionTaskClient2.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/ExecutionTask2.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter12_balking/BalkingData.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter12_balking/BalkingDataTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter1/ClassLoaderTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter1/String.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/exceptions/ConvertException.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter1/ClassActiveUse.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/java/lang/String.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chpater2/BootClassLoader.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/MyObject.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chpater2/CustomClassLoaderTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/manager/UserManager.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/UserDemo.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/RegixPatternUtils.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/entity/UserTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/CustomClassLoaderTest.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/CustomClassLoader.java" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/Con2SpringApplication.java" />
+        <option value="$PROJECT_DIR$/concurreny-in-one/src/main/java/com/controller/util/ThreadPoolExecutorServiceUtil.java" />
         <option value="$PROJECT_DIR$/concurreny-in-one/pom.xml" />
+        <option value="$PROJECT_DIR$/concurrency-in-two/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -274,21 +456,30 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="concurreny-in-one" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="concurrency-in-two" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lessons-in-wangwenjun" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lessons-in-wangwenjun" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="concurrency-in-two" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lessons-in-wangwenjun" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="concurrency-in-two" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="concurreny-in-one" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="concurreny-in-one" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lessons-in-wangwenjun" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -297,11 +488,25 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2036" />
-    <option name="y" value="167" />
-    <option name="width" value="1935" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1911" />
+    <option name="y" value="-9" />
+    <option name="width" value="2576" />
+    <option name="height" value="1414" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -309,7 +514,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,6 +529,64 @@
             <path>
               <item name="lessons-in-wangwenjun" type="b2602c69:ProjectViewProjectNode" />
               <item name="lessons-in-wangwenjun" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency-in-two" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lessons-in-wangwenjun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lessons-in-wangwenjun" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency-in-two" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lessons-in-wangwenjun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lessons-in-wangwenjun" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency-in-two" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lessons-in-wangwenjun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lessons-in-wangwenjun" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency-in-two" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lessons-in-wangwenjun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lessons-in-wangwenjun" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency-in-two" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="classloader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lessons-in-wangwenjun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lessons-in-wangwenjun" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency-in-two" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="classloader" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lessons-in-wangwenjun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lessons-in-wangwenjun" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrency-in-two" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lessons-in-wangwenjun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lessons-in-wangwenjun" type="462c0819:PsiDirectoryNode" />
               <item name="concurreny-in-one" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -356,6 +618,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lessons-in-wangwenjun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lessons-in-wangwenjun" type="462c0819:PsiDirectoryNode" />
+              <item name="concurreny-in-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="concurreny" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lessons-in-wangwenjun" type="b2602c69:ProjectViewProjectNode" />
@@ -369,12 +641,31 @@
             </path>
             <path>
               <item name="lessons-in-wangwenjun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lessons-in-wangwenjun" type="462c0819:PsiDirectoryNode" />
+              <item name="concurreny-in-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lessons-in-wangwenjun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lessons-in-wangwenjun" type="462c0819:PsiDirectoryNode" />
+              <item name="concurreny-in-one" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lessons-in-wangwenjun" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -383,25 +674,42 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="ClassLoader.class&#9;FILE&#9;jar://D:/Java/jdk1.8.0_191/jre/lib/rt.jar!/java/lang/ClassLoader.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1592792910310" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598346775183" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\work\wwj-lessons\lessons-in-wangwenjun" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\work\wwj-lessons\lessons-in-wangwenjun\concurrency-in-two\src\main\java\com\concurrency2\chapter11_context\complex" />
+      <recent name="E:\work\wwj-lessons\lessons-in-wangwenjun\concurrency-in-two\src\main\java\com\concurrency2\chapter6_rdlock" />
+      <recent name="E:\work\wwj-lessons\lessons-in-wangwenjun\concurrency-in-two\src\main\resources" />
+      <recent name="E:\work\wwj-lessons\lessons-in-wangwenjun\concurrency-in-two\src\main\java\com\concurrency2\controller" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.concurreny.base.c5_join" />
+      <recent name="com.utils" />
+      <recent name="com.concurrency2.chapter4_observer" />
+      <recent name="com.concurrency2.controller" />
+      <recent name="com.util" />
+      <recent name="com.concurrency2.chapter1_singleton.lazy" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.concurrency2.chapter11" />
+      <recent name="com.concurrency2.chapter4_observer.thread2" />
+      <recent name="com.concurrency2.controller.future" />
       <recent name="com.concurreny.base.c11_hook" />
     </key>
   </component>
@@ -417,13 +725,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleThreadPool">
-    <configuration name="CaptureService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurreny.base.c9_communication.CaptureService" />
-      <module name="concurreny-in-one" />
+  <component name="RunManager" selected="Application.CustomClassLoaderTest">
+    <configuration name="BootClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.classloader.chapter2.BootClassLoader" />
+      <module name="concurrency-in-two" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurreny.base.c9_communication.*" />
+          <option name="PATTERN" value="com.classloader.chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -431,12 +739,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurreny.base.c13_threadpool.SimpleThreadPool" />
-      <module name="concurreny-in-one" />
+    <configuration name="ClassActiveUse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.classloader.chapter1.ClassActiveUse" />
+      <module name="concurrency-in-two" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurreny.base.c13_threadpool.*" />
+          <option name="PATTERN" value="com.classloader.chapter1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -444,12 +752,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleThreadPoolV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurreny.demo.SimpleThreadPoolV1" />
-      <module name="concurreny-in-one" />
+    <configuration name="ConvertException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.exceptions.ConvertException" />
+      <module name="concurrency-in-two" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurreny.demo.*" />
+          <option name="PATTERN" value="com.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -457,12 +765,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadGroupApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurreny.base.c12_threadgroup.ThreadGroupApi" />
-      <module name="concurreny-in-one" />
+    <configuration name="CustomClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.classloader.chapter3.CustomClassLoaderTest" />
+      <module name="concurrency-in-two" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurreny.base.c12_threadgroup.*" />
+          <option name="PATTERN" value="com.classloader.chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -470,15 +778,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadGroupCreate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurreny.base.c12_threadgroup.ThreadGroupCreate" />
-      <module name="concurreny-in-one" />
+    <configuration name="RegixPatternUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.utils.RegixPatternUtils" />
+      <module name="concurrency-in-two" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.concurreny.base.c12_threadgroup.*" />
+          <option name="PATTERN" value="com.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Con2SpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="concurrency-in-two" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Con2SpringApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -492,19 +807,20 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.ConcurrenyInOneApplication" />
-      <item itemvalue="Application.ThreadGroupCreate" />
-      <item itemvalue="Application.ThreadGroupApi" />
-      <item itemvalue="Application.CaptureService" />
-      <item itemvalue="Application.SimpleThreadPool" />
-      <item itemvalue="Application.SimpleThreadPoolV1" />
+      <item itemvalue="Spring Boot.Con2SpringApplication" />
+      <item itemvalue="Application.ClassActiveUse" />
+      <item itemvalue="Application.ConvertException" />
+      <item itemvalue="Application.RegixPatternUtils" />
+      <item itemvalue="Application.BootClassLoader" />
+      <item itemvalue="Application.CustomClassLoaderTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleThreadPoolV1" />
-        <item itemvalue="Application.SimpleThreadPool" />
-        <item itemvalue="Application.CaptureService" />
-        <item itemvalue="Application.ThreadGroupApi" />
-        <item itemvalue="Application.ThreadGroupCreate" />
+        <item itemvalue="Application.CustomClassLoaderTest" />
+        <item itemvalue="Application.RegixPatternUtils" />
+        <item itemvalue="Application.BootClassLoader" />
+        <item itemvalue="Application.ConvertException" />
+        <item itemvalue="Application.ClassActiveUse" />
       </list>
     </recent_temporary>
   </component>
@@ -558,6 +874,48 @@
       <workItem from="1592531300304" duration="10123000" />
       <workItem from="1592743068493" duration="7910000" />
       <workItem from="1592790253944" duration="917000" />
+      <workItem from="1594192519597" duration="1550000" />
+      <workItem from="1594218645959" duration="606000" />
+      <workItem from="1594258690492" duration="605000" />
+      <workItem from="1594295586025" duration="91000" />
+      <workItem from="1594301592635" duration="1201000" />
+      <workItem from="1594346374879" duration="15690000" />
+      <workItem from="1594388108184" duration="1166000" />
+      <workItem from="1594606705698" duration="2386000" />
+      <workItem from="1594690435452" duration="10135000" />
+      <workItem from="1594776964053" duration="2543000" />
+      <workItem from="1594782212208" duration="9514000" />
+      <workItem from="1594821870849" duration="588000" />
+      <workItem from="1594863975129" duration="929000" />
+      <workItem from="1594964004205" duration="1343000" />
+      <workItem from="1595209506912" duration="3908000" />
+      <workItem from="1595250288353" duration="614000" />
+      <workItem from="1595295621384" duration="108000" />
+      <workItem from="1595395095084" duration="625000" />
+      <workItem from="1596702180216" duration="2362000" />
+      <workItem from="1596721490352" duration="599000" />
+      <workItem from="1596765014097" duration="5157000" />
+      <workItem from="1597023460048" duration="599000" />
+      <workItem from="1597109922033" duration="11859000" />
+      <workItem from="1597151445257" duration="2449000" />
+      <workItem from="1597155551841" duration="7791000" />
+      <workItem from="1597197061541" duration="13007000" />
+      <workItem from="1597323006462" duration="597000" />
+      <workItem from="1597369119438" duration="13978000" />
+      <workItem from="1597633426841" duration="3057000" />
+      <workItem from="1597714965481" duration="2054000" />
+      <workItem from="1597801370099" duration="2257000" />
+      <workItem from="1597893286549" duration="8224000" />
+      <workItem from="1597975117244" duration="1439000" />
+      <workItem from="1598006768387" duration="809000" />
+      <workItem from="1598019996908" duration="2352000" />
+      <workItem from="1598105783791" duration="473000" />
+      <workItem from="1598170185144" duration="599000" />
+      <workItem from="1598233140376" duration="599000" />
+      <workItem from="1598277672680" duration="599000" />
+      <workItem from="1598319282072" duration="1431000" />
+      <workItem from="1598344552948" duration="2396000" />
+      <workItem from="1598346957505" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 本地仓库工程添加到git">
       <created>1587540815751</created>
@@ -569,31 +927,64 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="UserManangerTest - 2020.07.20 at 10h 13m 14s.xml">
+      <configuration name="UserManangerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserManangerTest - 2020.07.20 at 10h 17m 53s.xml">
+      <configuration name="UserManangerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserManangerTest - 2020.07.20 at 10h 20m 16s.xml">
+      <configuration name="UserManangerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserManangerTest - 2020.07.20 at 10h 20m 42s.xml">
+      <configuration name="UserManangerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserManangerTest_transactionalTest - 2020.07.20 at 10h 22m 48s.xml">
+      <configuration name="UserManangerTest.transactionalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserManangerTest - 2020.07.20 at 10h 24m 24s.xml">
+      <configuration name="UserManangerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserManangerTest - 2020.07.20 at 10h 28m 13s.xml">
+      <configuration name="UserManangerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserManangerTest - 2020.07.20 at 10h 29m 11s.xml">
+      <configuration name="UserManangerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserManangerTest - 2020.07.20 at 10h 30m 04s.xml">
+      <configuration name="UserManangerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserManangerTest_transactionalTest - 2020.07.20 at 10h 31m 24s.xml">
+      <configuration name="UserManangerTest.transactionalTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114404000" />
+    <option name="totallyTimeSpent" value="264600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="2448" height="1344" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24706867" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49518073" visible="true" weight="0.16792294" />
+      <window_info id="Structure" order="1" sideWeight="0.5048193" side_tool="true" weight="0.15619765" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.50789094" side_tool="true" weight="0.19723618" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32947975" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5305695" weight="0.4128819" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4979062" weight="0.39884394" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49958125" weight="0.32700247" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5083752" weight="0.31461602" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49664992" weight="0.44073647" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32782823" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5020938" side_tool="true" weight="0.3996697" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49916247" visible="true" weight="0.3261767" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32700247" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.4916248" side_tool="true" weight="0.31461602" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49748743" weight="0.3261767" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32700247" />
@@ -602,11 +993,13 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32956448" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="5" visible="true" weight="0.4417923" />
       <window_info anchor="right" id="Database" order="6" weight="0.32998326" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32998326" />
+      <window_info anchor="right" id="Codota" order="10" sideWeight="0.57608694" weight="0.32998326" />
+      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.42391303" side_tool="true" weight="0.32998326" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,29 +1015,86 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadInterrupt.java</url>
           <line>29</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadInterrupt.java</url>
           <line>51</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadInterrupt.java</url>
           <line>48</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/ThreadDemoTest2.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractDetectingUrlHandlerMapping.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractDetectingUrlHandlerMapping.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.7.RELEASE/spring-webmvc-5.0.7.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractDetectingUrlHandlerMapping.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/RequestQueue.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/simple/QueryFromHttpAction.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread2/MineThreadLifeCycleClient.java</url>
+          <line>13</line>
+          <properties class="com.concurrency2.chapter4_observer.thread2.MineThreadLifeCycleClient" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>queue.removeFirst()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>DEFAULT_EXECUTOR</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>ex.get()</expression-string>
         <language-id>JAVA</language-id>
@@ -658,358 +1108,344 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/controller/DemoController.java">
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/simple/ExecutionTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/ActionContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/QueryFromDBAction2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/tree/UmsPermission.java">
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/ExecutionTask2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="418">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/ConcurrenyInOneApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="356" column="23" selection-start-line="356" selection-start-column="23" selection-end-line="356" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/tree/UmsPermissionNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/tree/UmsPermissionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ForkJoinWorkerThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="239" column="20" selection-start-line="239" selection-start-column="20" selection-end-line="239" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c11_hook/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c11_hook/TestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c11_hook/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c5_join/ThreadCommonAPITest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c12_threadgroup.java" />
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c12_threadgroup/ThreadGroupCreate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="29" column="19" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c12_threadgroup/ThreadGroupApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c9_communication/ProducerConsumerV1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10_booleanlock/SynchronizedProblem.java">
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter12_balking/BalkingData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10_booleanlock/Lock.java">
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter12_balking/BalkingDataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        <state relative-caret-position="550">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10_booleanlock/BooleanLockTest.java">
+    <entry file="file://$PROJECT_DIR$/balking.txt" />
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/exceptions/ConvertException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="704">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadCloseGraceful1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadCloseGraceful2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadCloseForce.java">
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/io/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadInterrupt.java">
+    <entry file="jar://D:/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/misc/Launcher.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="267">
+          <caret line="265" column="28" selection-start-line="265" selection-start-column="28" selection-end-line="265" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c6_interrupt/ThreadService.java">
+    <entry file="jar://D:/Java/jdk1.8.0_191/jre/lib/rt.jar!/java/lang/ClassLoader.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="557">
+          <caret line="163" column="43" lean-forward="true" selection-start-line="163" selection-start-column="43" selection-end-line="163" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="1963" column="40" lean-forward="true" selection-start-line="1963" selection-start-column="40" selection-end-line="1963" selection-end-column="40" />
+        <state relative-caret-position="259">
+          <caret line="471" column="21" selection-start-line="471" selection-start-column="21" selection-end-line="471" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c11_hook/ThreadException.java">
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter1/ClassActiveUse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="1100">
+          <caret line="50" column="58" selection-start-line="50" selection-start-column="58" selection-end-line="50" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c9_communication/ProducerConsumerV2.java">
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/net/URLClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1240">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="13904">
+          <caret line="697" column="52" selection-start-line="697" selection-start-column="52" selection-end-line="697" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c9_communication/DifferenceOfSleepAndWait.java">
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/BeanPropertyUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1204">
-          <caret line="67" column="55" selection-start-line="67" selection-start-column="55" selection-end-line="67" selection-end-column="55" />
+        <state relative-caret-position="242">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/ThreadGroup.java">
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/ConcurrentHashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="94" column="11" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c11_hook/SimpleApplicationHook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c9_communication/CaptureService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="75" column="37" lean-forward="true" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/demo/TryFunctionProgramDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
+        <state relative-caret-position="242">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/demo/DemoTest.java">
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="242">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/Lock.java">
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/OtherSizeToByteConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3676">
-          <caret line="166" column="17" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
+        <state relative-caret-position="242">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/demo/SimpleThreadPoolV1.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar!/org/apache/commons/collections/CollectionUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2442">
-          <caret line="121" column="55" selection-start-line="121" selection-start-column="55" selection-end-line="121" selection-end-column="55" />
+        <state relative-caret-position="418">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter2/BootClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25124">
-          <caret line="1202" column="36" selection-start-line="1202" selection-start-column="36" selection-end-line="1202" selection-end-column="36" />
+        <state relative-caret-position="418">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/Executors.java">
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/RegixPatternUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13200">
-          <caret line="645" column="31" selection-start-line="645" selection-start-column="22" selection-end-line="645" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/javax/swing/SwingWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15576">
-          <caret line="768" column="53" selection-start-line="768" selection-start-column="53" selection-end-line="768" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/SecurityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37752">
-          <caret line="1774" column="23" selection-start-line="1774" selection-start-column="23" selection-end-line="1774" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1562">
-          <caret line="105" column="41" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/ThreadFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/javafx-src.zip!/com/sun/webkit/network/SocketStreamHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8118">
-          <caret line="426" column="50" selection-start-line="426" selection-start-column="31" selection-end-line="426" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="156" column="16" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.33/tomcat-embed-websocket-9.0.33.jar!/org/apache/tomcat/websocket/AsyncChannelGroupUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="76" column="45" selection-start-line="76" selection-start-column="45" selection-end-line="76" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c13_threadpool/SimpleThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4268">
-          <caret line="196" column="28" selection-start-line="196" selection-start-column="28" selection-end-line="196" selection-end-column="28" />
+        <state relative-caret-position="484">
+          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#6147#6148#0" expanded="true" />
-            <element signature="e#6182#6183#0" expanded="true" />
-            <element signature="e#6209#6210#0" expanded="true" />
-            <element signature="e#6235#6236#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/concurreny/base/c10_booleanlock/BooleanLock.java">
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/manager/UserManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="125" column="74" selection-start-line="125" selection-start-column="74" selection-end-line="125" selection-end-column="74" />
+        <state relative-caret-position="44">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurreny-in-one/concurrency-in-two/pom.xml">
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/entity/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/UserDemo.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3-sources.jar!/org/apache/commons/beanutils/BeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="105" column="25" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3-sources.jar!/org/apache/commons/beanutils/BeanUtilsBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3234">
+          <caret line="185" column="41" selection-start-line="185" selection-start-column="27" selection-end-line="185" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3-sources.jar!/org/apache/commons/beanutils/DynaBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/ReaderWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11308">
+          <caret line="553" column="33" selection-start-line="553" selection-start-column="33" selection-end-line="553" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurreny-in-one/mvnw.cmd" />
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/MyObject.java" />
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/controller/ThreadDemoTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter2/SimpleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/ExecutionTaskClient2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter5/Gate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/simple/ExecutionTaskClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="661" lean-forward="true" selection-start-line="661" selection-end-line="661" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/CustomClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#2414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/CustomClassLoaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/WriterWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/src/main/java/com/Con2SpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="79" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrency-in-two/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        </state>
+      </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrency-in-two/concurrency-in-two.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/controller/util/ThreadPoolExecutorServiceUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="61" column="69" selection-start-line="61" selection-start-column="69" selection-end-line="61" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/controller/ThreadDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurreny-in-one/src/main/java/com/controller/DemoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="410">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/concurreny-in-one/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="1276">
+          <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -1068,7 +1504,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>concurrency-in-two</last-edited>
+          <last-edited>concurreny-in-one</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1094,6 +1530,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
