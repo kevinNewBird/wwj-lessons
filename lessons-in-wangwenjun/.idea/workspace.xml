@@ -23,11 +23,96 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbfd39ba-4a59-4456-80f9-d507bcbb1dd1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter1/ClassActiveUse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter2/BootClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter2/SimpleObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/CustomClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/classloader/chapter3/CustomClassLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10_threadlocal/ThreadLocalComplexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10_threadlocal/ThreadLocalSimpleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10_threadlocal/ThreadLocalSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter10_threadlocal/ThreadLocalSimulatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/ActionContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/ExecutionTask2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/ExecutionTaskClient2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/QueryFromDBAction2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/complex/QueryFromHttpAction2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/simple/ExecutionTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/simple/ExecutionTaskClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/simple/QueryFromDBAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter11_context/simple/QueryFromHttpAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter12_balking/BalkingData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter12_balking/BalkingDataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/hungry/SingletonOfHungryType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfDoubleCheckLazyLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfDoubleCheckLazyLoad2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfErrorLazyLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfMethodSyncronizedLazyLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfOptimum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter1_singleton/lazy/SingletonOfUseEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter2_waitset/WaitSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter2_waitset/WaitSet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter3_volatile/VolatileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter3_volatile/VolatileTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/demo/BinaryMineObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/demo/MineObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/demo/ObserverClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/demo/OctalMineObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/demo/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread/LifeCycleListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread/ObservableRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread/ThreadLifeCycleCilent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread/ThreadLifeCycleObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread2/MineLifeCycleListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread2/MineObservableRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread2/MineThreadLifeCycleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter4_observer/thread2/MineThreadLifeCycleObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter5/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter5/Gate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter5/UserThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/ReadWriteLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/ReadWriteLockClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/ReaderWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/SharedData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter6_rdlock/WriterWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter7_immutableobj/ImmutableClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter7_immutableobj/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter7_immutableobj/UsePersonThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/AsynFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/Future.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/FutureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/FutureTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter8_future/SyncInvoker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/RequestQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/ServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/concurrency2/chapter9_guardedsuspension/SuspensionClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/ThreadDemoTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/ThreadPoolDemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/entity/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/future/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/future/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/future/FutureData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/future/FutureTaskDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/future/RealData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/manager/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/util/ExecutorServiceHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/controller/util/ThreadPoolExecutorServiceUtil2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/exceptions/ConvertException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/BeanPropertyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/ConcurrentHashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/OtherSizeToByteConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/RegixPatternUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/UserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/java/com/utils/UserDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/concurrency-in-two/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-in-two/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/concurreny-in-one/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/concurreny-in-one/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrency-in-two/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/concurrency-in-two/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,14 +174,11 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2036" />
-    <option name="y" value="167" />
-    <option name="width" value="1935" />
-    <option name="height" value="1048" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -124,13 +206,26 @@
       <recent name="com.concurreny.base.c11_hook" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimpleThreadPool">
+  <component name="RunManager" selected="Application.CustomClassLoaderTest">
     <configuration name="CaptureService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.concurreny.base.c9_communication.CaptureService" />
       <module name="concurreny-in-one" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.concurreny.base.c9_communication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.classloader.chapter3.CustomClassLoaderTest" />
+      <module name="concurrency-in-two" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.classloader.chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,15 +272,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadGroupCreate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.concurreny.base.c12_threadgroup.ThreadGroupCreate" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="concurreny-in-one" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.concurreny.base.c12_threadgroup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="concurreny-in-one" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -198,20 +338,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadGroupCreate" />
       <item itemvalue="Application.ThreadGroupApi" />
       <item itemvalue="Application.CaptureService" />
       <item itemvalue="Application.SimpleThreadPool" />
       <item itemvalue="Application.SimpleThreadPoolV1" />
       <item itemvalue="Spring Boot.ConcurrenyInOneApplication" />
+      <item itemvalue="Application.CustomClassLoaderTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomClassLoaderTest" />
         <item itemvalue="Application.SimpleThreadPoolV1" />
         <item itemvalue="Application.SimpleThreadPool" />
         <item itemvalue="Application.CaptureService" />
         <item itemvalue="Application.ThreadGroupApi" />
-        <item itemvalue="Application.ThreadGroupCreate" />
       </list>
     </recent_temporary>
   </component>
@@ -296,33 +436,39 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="feat: 本地仓库工程添加到git" />
     <MESSAGE value="Revert &quot;feat: idea版本升级备份&quot;&#10;&#10;This reverts commit 869ca16e" />
     <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;feat: idea版本升级备份&quot;&#10;&#10;This reverts commit 869ca16e" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2609" y="574" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598432174695">
+      <screen x="1920" y="0" width="2433" height="1329" />
+    </state>
+    <state x="2609" y="574" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598432174695" />
     <state x="2516" y="126" key="CommitChangelistDialog2" timestamp="1598430997435">
       <screen x="1920" y="0" width="2433" height="1329" />
     </state>
     <state x="2516" y="126" key="CommitChangelistDialog2/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598430997435" />
-    <state width="2379" height="346" key="GridCell.Tab.0.bottom" timestamp="1598431447547">
+    <state width="2379" height="346" key="GridCell.Tab.0.bottom" timestamp="1598432560874">
       <screen x="1920" y="0" width="2433" height="1329" />
     </state>
-    <state width="2379" height="346" key="GridCell.Tab.0.bottom/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598431447547" />
-    <state width="2379" height="346" key="GridCell.Tab.0.center" timestamp="1598431447547">
+    <state width="2379" height="346" key="GridCell.Tab.0.bottom/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598432560874" />
+    <state width="2379" height="346" key="GridCell.Tab.0.center" timestamp="1598432560874">
       <screen x="1920" y="0" width="2433" height="1329" />
     </state>
-    <state width="2379" height="346" key="GridCell.Tab.0.center/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598431447547" />
-    <state width="2379" height="346" key="GridCell.Tab.0.left" timestamp="1598431447547">
+    <state width="2379" height="346" key="GridCell.Tab.0.center/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598432560874" />
+    <state width="2379" height="346" key="GridCell.Tab.0.left" timestamp="1598432560874">
       <screen x="1920" y="0" width="2433" height="1329" />
     </state>
-    <state width="2379" height="346" key="GridCell.Tab.0.left/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598431447547" />
-    <state width="2379" height="346" key="GridCell.Tab.0.right" timestamp="1598431447547">
+    <state width="2379" height="346" key="GridCell.Tab.0.left/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598432560874" />
+    <state width="2379" height="346" key="GridCell.Tab.0.right" timestamp="1598432560874">
       <screen x="1920" y="0" width="2433" height="1329" />
     </state>
-    <state width="2379" height="346" key="GridCell.Tab.0.right/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598431447547" />
+    <state width="2379" height="346" key="GridCell.Tab.0.right/0.0.1825.987/1920.0.2433.1329@1920.0.2433.1329" timestamp="1598432560874" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -358,95 +504,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>concurrencyintwo:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>concurrency-in-two</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
