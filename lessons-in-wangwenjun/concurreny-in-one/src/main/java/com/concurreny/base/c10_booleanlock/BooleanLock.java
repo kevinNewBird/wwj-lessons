@@ -82,7 +82,6 @@ public class BooleanLock implements Lock {
                 throw new TimeOutException("Time out");
             }
             oLockedThreadContainer.add(Thread.currentThread());
-
             this.wait(mills);
 //            System.out.println("->"+System.currentTimeMillis());
             hasRemaining =endTime- System.currentTimeMillis();
