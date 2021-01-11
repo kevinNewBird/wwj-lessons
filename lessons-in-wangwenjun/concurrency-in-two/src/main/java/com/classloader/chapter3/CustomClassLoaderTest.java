@@ -8,11 +8,14 @@ package com.classloader.chapter3;
  ***********************/
 public class CustomClassLoaderTest {
 
-    public static void main(String[] args) throws ClassNotFoundException {
+    public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
 
         CustomClassLoader myClassLoader = new CustomClassLoader("MyClassLoader");
         Class<?> aClass = myClassLoader.loadClass("com.classloader.chapter3.MyObject");
         System.out.println(aClass);
         System.out.println(aClass.getClassLoader());
+
+        //静态代码块执行
+        Object obj = aClass.newInstance();
     }
 }

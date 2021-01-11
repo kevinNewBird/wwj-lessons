@@ -1,5 +1,7 @@
 package com.controller;
 
+import com.personal.StaticVariableTest;
+import net.sf.json.JSONArray;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -44,6 +46,15 @@ public class ThreadPoolDemoController {
 
         return "create default thread with daemon!force to kill him by reflect!";
     }
+
+    @RequestMapping("/testStatic")
+    public String testStatic() {
+        JSONArray preDealDefaultUrl = StaticVariableTest.getPreDealDefaultUrl();
+        preDealDefaultUrl.add("ssss");
+
+        return preDealDefaultUrl.toString();
+    }
+
 
 
 }

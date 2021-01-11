@@ -13,12 +13,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.6.RELEASE</version><!-- lookup parent from repository -->
+        <version>2.0.3.RELEASE</version><!-- lookup parent from repository -->
     </parent>
 
     <modules>
         <module>concurreny-in-one</module>
         <module>concurrency-in-two</module>
+        <module>concurrency-in-three</module>
     </modules>
 
     <properties>
@@ -103,6 +104,18 @@
         </dependency>
         <!--End     net.sf.json 需要引入的依赖-->
     </dependencies>
+
+    <profiles>
+        <profile>
+            <id>test</id>
+            <properties>
+                <test.ip>121324</test.ip>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+    </profiles>
 
     <build>
         <plugins>
