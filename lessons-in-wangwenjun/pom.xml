@@ -17,8 +17,8 @@
     </parent>
 
     <modules>
-        <module>concurreny-in-one</module>
-        <module>concurrency-in-two</module>
+        <module>concurrency01</module>
+        <module>concurrency02</module>
     </modules>
 
     <properties>
