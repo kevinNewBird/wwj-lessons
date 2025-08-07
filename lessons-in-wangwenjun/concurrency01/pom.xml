@@ -11,7 +11,7 @@
     </parent>
     <packaging>jar</packaging>
     <groupId>com.concurreny</groupId>
-    <artifactId>concurreny-in-one</artifactId>
+    <artifactId>concurrency01</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>concurreny-in-one</name>
     <description>Demo project for Spring Boot</description>
