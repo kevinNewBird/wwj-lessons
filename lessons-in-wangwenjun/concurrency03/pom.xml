@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
 
-    <artifactId>concurrency-in-three</artifactId>
+    <artifactId>concurrency03</artifactId>
 
     <name>concurrency-in-three</name>
     <!-- FIXME change it to the project's website -->
