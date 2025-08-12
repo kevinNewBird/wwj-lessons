@@ -5,6 +5,7 @@ import org.apache.commons.lang3.time.StopWatch;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.concurrent.LinkedTransferQueue;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -17,6 +18,7 @@ public class ConcurrencyTest {
     private static final long count = 10_000L;
 
     public static void main(String[] args) throws InterruptedException {
+        LinkedTransferQueue<Object> objects = new LinkedTransferQueue<>();
         concurrency();
         serial();
     }
