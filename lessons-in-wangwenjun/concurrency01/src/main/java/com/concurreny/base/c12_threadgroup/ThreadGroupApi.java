@@ -44,5 +44,6 @@ public class ThreadGroupApi {
         System.out.println(tg1.activeCount());
         System.out.println(tg1.activeGroupCount());
         System.out.println(tg2.activeCount());
+        System.out.println(tg2.activeGroupCount());
     }
 }
