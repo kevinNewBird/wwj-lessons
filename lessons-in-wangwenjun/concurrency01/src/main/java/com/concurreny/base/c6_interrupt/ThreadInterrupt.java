@@ -27,7 +27,7 @@ public class ThreadInterrupt {
             try {
                 while (true) {
                     /*logger.info("Thread " + Thread.currentThread().getName() + " is running.");*/
-//                    Thread.sleep(1_000L);
+                    Thread.sleep(1_000L);
                     logger.info("Thread " + Thread.currentThread().getName() + " is done.");
                 }
             } catch (Exception e) {
@@ -50,11 +50,13 @@ public class ThreadInterrupt {
                     t1.start();
                     t1.join();
                     System.out.println(Thread.currentThread().getName() + " is running...");
-//                    Thread.sleep(2_000L);
+//                    Thread.sleep(1_000L);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
+                    // 每个线程的打断都必须要执行：t1线程虽然在t2的run方法中，但是执行t2.interrupt方法并不能t1线程
+                    // 将下面的代码注释掉将会发生t1线程一直在运行的情况
+                    t1.interrupt();
                 }
-//                t1.interrupt();
             }
         };
         t2.start();

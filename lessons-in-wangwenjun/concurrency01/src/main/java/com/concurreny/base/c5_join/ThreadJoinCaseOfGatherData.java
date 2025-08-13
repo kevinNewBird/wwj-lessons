@@ -1,5 +1,9 @@
 package com.concurreny.base.c5_join;
 
+import org.apache.commons.lang.time.StopWatch;
+
+import java.util.concurrent.TimeUnit;
+
 /**
  * Description: 采集数据案例 <BR>
  * 1.从多台服务器上采集数据
@@ -51,8 +55,11 @@ class CaptureRunnable implements Runnable {
     public void run() {
         //do the really capture data.
         try {
+            StopWatch stopWatch = new StopWatch();
+            stopWatch.start();
             Thread.sleep(spendTime);
-            System.out.println(machineName + " completed data capture at timestamp and successfully.");
+            stopWatch.stop();
+            System.out.println(machineName + " completed data capture at timestamp and successfully.spend time is: " + stopWatch.getTime()+"ms");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
