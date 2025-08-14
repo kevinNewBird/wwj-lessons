@@ -26,6 +26,7 @@ public class ThreadYieldTest {
     private static Thread create(int index){
         Thread thread = new Thread(() -> {
             if (index == 0) {
+                // TIP：提醒调度器自己愿意放弃当前线程的CPU资源
                 Thread.yield();
             }
             System.out.println(index);
