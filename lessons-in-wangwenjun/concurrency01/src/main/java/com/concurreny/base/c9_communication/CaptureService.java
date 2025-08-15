@@ -48,7 +48,7 @@ public class CaptureService {
                     .ifPresent(System.out::println);
             //判断是否执行数据的采集,串行化
             synchronized (CONTROLS) {
-                while (CONTROLS.size() > MAX_WORKER) {
+                while (CONTROLS.size() >= MAX_WORKER) {
                     try {
                         CONTROLS.wait();
                     } catch (InterruptedException e) {
@@ -60,6 +60,8 @@ public class CaptureService {
             }
             //开始执行数据的采集,并行化
             Optional.of("The [" + Thread.currentThread().getName() + "] is running ...")
+                    .ifPresent(System.out::println);
+            Optional.of("Current Capture Thread in running, the number is " + CONTROLS.size())
                     .ifPresent(System.out::println);
             try {
                 Thread.sleep(10_000);

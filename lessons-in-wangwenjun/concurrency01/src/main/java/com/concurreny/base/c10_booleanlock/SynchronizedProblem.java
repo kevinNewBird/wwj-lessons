@@ -13,8 +13,11 @@ public class SynchronizedProblem {
     /**
      * Description: Synchronized的打断 <BR>
      * <p>这里所谓的打断是指正常运行过程中的打算 , 即线程没有处于 [休眠,等待] 等状态时的打断</p>
+     *
+     * synchronized的缺点：
+     * 1、不可被中断
+     * 2、不具备超时功能，即一个线程长时间获取不到锁会一直阻塞
      */
-
     public static void main(String[] args) throws InterruptedException {
         new Thread(() -> {
             SynchronizedProblem.run();

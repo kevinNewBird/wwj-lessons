@@ -8,6 +8,11 @@ import java.util.Optional;
 /**
  * Description: BooleanLock lock <BR>
  *
+ * 自定义显式锁：
+ * 1、具备synchronized关键字的所有功能
+ * 2、具备可中断和lock超时的能力
+ *
+ *
  * @Author: zhao.song
  * @Date: 2020/5/22 15:23
  * @Version: 1.0
