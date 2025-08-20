@@ -50,8 +50,15 @@ public class BooleanLock implements Lock {
         while (this.initValue) {
 //            Optional.of("The [" + Thread.currentThread().getName() + "] is waiting to get lock.")
 //                    .ifPresent(System.out::println);
-            oLockedThreadContainer.add(Thread.currentThread());
-            this.wait();
+            try {
+                oLockedThreadContainer.add(Thread.currentThread());
+                // Cause： 存在一个隐形的问题，如果当前线程被中断，会导致内存泄漏
+                this.wait();
+            } catch (InterruptedException e) {
+                // 如果当前线程在wait时被中断，则从容器中将其移除，避免内存泄漏
+                oLockedThreadContainer.remove(Thread.currentThread());
+                throw e;
+            }
         }
 
         Optional.of("The [" + Thread.currentThread().getName() + "] get lock monitor.")
@@ -86,8 +93,14 @@ public class BooleanLock implements Lock {
             if (hasRemaining <= 0) {
                 throw new TimeOutException("Time out");
             }
-            oLockedThreadContainer.add(Thread.currentThread());
-            this.wait(mills);
+            try {
+                oLockedThreadContainer.add(Thread.currentThread());
+                this.wait(mills);
+            } catch (InterruptedException e) {
+                // 如果当前线程在wait时被中断，则从容器中将其移除，避免内存泄漏
+                oLockedThreadContainer.remove(Thread.currentThread());
+                throw e;
+            }
 //            System.out.println("->"+System.currentTimeMillis());
             hasRemaining =endTime- System.currentTimeMillis();
             System.out.println(hasRemaining);
